@@ -208,10 +208,10 @@ const Navbar = () => {
                             <div className={`panel ${activeIndex === 0 ? "show" : ""}`}>
                                 <Link to={''}><p className='panel-text'>Peru</p></Link>
                                 <Link to={''}><p className='panel-text'>Ecuador</p></Link>
-                                <Link to={''}><p className='panel-text'>Galapagos</p></Link>
+                                <Link to={''}><p className='panel-text'>Galapagos</p></Link> 
                             </div>
 
-                        </div>
+                        </div> 
                     </div>
 
 
