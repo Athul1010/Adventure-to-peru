@@ -84,7 +84,7 @@ const Navbar = () => {
             </div> */}
             <div className='bar-btn'>
                 <div className='booking-wrapper'>
-                    <Link to={'https://www.adventurestoperu.com/book-a-trip/'}>
+                    <Link to={''}>
                         <button className='booking-sets'>Book Now</button>
                     </Link>
                 </div>
@@ -97,8 +97,8 @@ const Navbar = () => {
                 </div>
             </div>
             <ul className='navbar-options'>
-                <Link to={'https://www.adventurestoperu.com/'}><div>Home</div></Link>
-                <Link to={'https://www.adventurestoperu.com/about-us/'}><div>About Us</div></Link>
+                <Link to={''}><div>Home</div></Link>
+                <Link to={''}><div>About Us</div></Link>
 
                 {/* <li className="dropdown">
                     <div className='destination-sec'>Destinations <span className='drop_down'><RiArrowDropDownLine /></span></div>
@@ -114,9 +114,9 @@ const Navbar = () => {
                     <div className='destination-sec'>Destinations <span className='drop_down'><RiArrowDropDownLine /></span></div>
                     <ul className={`dropdown-content ${showDestinations ? 'active' : ''}`}>
                         <div className='first-main-places'>
-                            <Link to={'https://www.adventurestoperu.com/peru/'}><li>Peru</li></Link>
-                            <Link to={'https://www.adventurestoperu.com/ecuador/'}><li>Equador</li></Link>
-                            <Link to={'https://www.adventurestoperu.com/galapagos/'}><li>Galapagos</li></Link>
+                            <Link to={''}><li>Peru</li></Link>
+                            <Link to={''}><li>Equador</li></Link>
+                            <Link to={''}><li>Galapagos</li></Link>
                         </div>
                     </ul>
                 </li>
@@ -147,18 +147,18 @@ const Navbar = () => {
                     <ul className={`dropdown-content-navbar ${showActivities ? 'active' : ''}`}>
                         <div className='main-places'>
                             <div className='second-main-places'>
-                                <Link to={'https://www.adventurestoperu.com/popular-tours/'}><li>Popular Tours</li></Link>
-                                <Link to={'https://www.adventurestoperu.com/traditional/'}><li>Traditional</li></Link>
-                                <Link to={'https://www.adventurestoperu.com/machu-picchu_/'}><li>Machu Picchu</li></Link>
-                                <Link to={'https://www.adventurestoperu.com/nazcalines/'}><Link to={''}><li>Nazca Lines</li></Link></Link>
-                                <Link to={'https://www.adventurestoperu.com/around-lima/'}><li>Around Lima</li></Link>
-                                <Link to={'https://www.adventurestoperu.com/active/'}><li>Active</li></Link>
-                                <Link to={'https://www.adventurestoperu.com/trekking/'}><li>Trekking</li></Link>
+                                <Link to={''}><li>Popular Tours</li></Link>
+                                <Link to={''}><li>Traditional</li></Link>
+                                <Link to={''}><li>Machu Picchu</li></Link>
+                                <Link to={''}><Link to={''}><li>Nazca Lines</li></Link></Link>
+                                <Link to={''}><li>Around Lima</li></Link>
+                                <Link to={''}><li>Active</li></Link>
+                                <Link to={''}><li>Trekking</li></Link>
                             </div>
                             <div>
-                                <Link to={'https://www.adventurestoperu.com/amazon-jungle/'}><li>Amazon Jungle</li></Link>
-                                <Link to={'https://www.adventurestoperu.com/puerto-maldonado-region/'}><li>Puerto Maldonado Region</li></Link>
-                                <Link to={'https://www.adventurestoperu.com/iquitos/'}><li>Iquitos Region</li></Link>
+                                <Link to={''}><li>Amazon Jungle</li></Link>
+                                <Link to={''}><li>Puerto Maldonado Region</li></Link>
+                                <Link to={''}><li>Iquitos Region</li></Link>
                             </div>
                         </div>
                     </ul>
@@ -166,9 +166,9 @@ const Navbar = () => {
 
                 {/* <Link to={''}><div className='destination-sec'>Destinations <span className='drop_down'><RiArrowDropDownLine /></span></div></Link> */}
                 {/* <Link to={''}><div className='activity-sec'>Activities <span className='drop_down'><RiArrowDropDownLine /></span></div></Link> */}
-                <Link to={'https://www.adventurestoperu.com/blog-page/'}><div>Blog</div></Link>
+                <Link to={''}><div>Blog</div></Link>
                 <Link to={''}><div>Contact</div></Link>
-                <Link to={'https://www.adventurestoperu.com/book-a-trip/'}><button className='booking'>Book Now</button></Link>
+                <Link to={''}><button className='booking'>Book Now</button></Link>
                 <select className='en-dropdown'>
                     <option value="option1">EN</option>
                 </select>
@@ -206,9 +206,9 @@ const Navbar = () => {
                                 Destinations
                             </button>
                             <div className={`panel ${activeIndex === 0 ? "show" : ""}`}>
-                                <Link to={'https://www.adventurestoperu.com/peru/'}><p className='panel-text'>Peru</p></Link>
-                                <Link to={'https://www.adventurestoperu.com/ecuador/'}><p className='panel-text'>Ecuador</p></Link>
-                                <Link to={'https://www.adventurestoperu.com/galapagos/'}><p className='panel-text'>Galapagos</p></Link>
+                                <Link to={''}><p className='panel-text'>Peru</p></Link>
+                                <Link to={''}><p className='panel-text'>Ecuador</p></Link>
+                                <Link to={''}><p className='panel-text'>Galapagos</p></Link>
                             </div>
 
                         </div>
