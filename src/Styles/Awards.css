@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.agencia img,
+.essna img,
+.sunat img,
+.adviser img{
+    height: 9rem;
+}
+.adventure-seUp p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 44px;
+    padding-bottom: 44px;
+    color: #000000;
+}
+.adventure-seUp img{
+    height: 100px;
+}
+
+.line-one{
+    height: 1px;
+    background-color: rgb(179,179,179);
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px){
+
+    .line-one{
+        width: 95%;
+    }
+    
+
+    .adventure-seUp p{
+        width: 93%;
+    }
+    .agencia img, .essna img, .sunat img, .adviser img {
+        height: 6rem;
+    }
+    .award-wrapper{
+        margin-top: 5rem;
+    }
+    .award-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+@media only screen and (min-width: 600px){
+    .award-wrapper{
+        margin-top: 5rem;
+    }
+    .award-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .line-one{
+        width: 95%;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .award-section{
+        flex-direction: row;
+        gap: 5rem;
+        margin-top: 30px;
+    }
+    .line-one{
+        width: 100%;
+    }
+    
+}
